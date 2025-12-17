@@ -1,0 +1,226 @@
+Start testing: Dec 17 16:50 UTC
+----------------------------------------------------------
+1/1 Testing: LabsTests
+1/1 Test: LabsTests
+Command: "/workspaces/Lab4/build/tests"
+Directory: /workspaces/Lab4/build
+"LabsTests" start time: Dec 17 16:50 UTC
+Output:
+----------------------------------------------------------
+Running main() from /workspaces/Lab4/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 41 tests from 40 test suites.
+[----------] Global test environment set-up.
+[----------] 2 tests from test_1
+[ RUN      ] test_1.PointConstruct
+[       OK ] test_1.PointConstruct (0 ms)
+[ RUN      ] test_1.PointDefaultConstruct
+[       OK ] test_1.PointDefaultConstruct (0 ms)
+[----------] 2 tests from test_1 (0 ms total)
+
+[----------] 1 test from test_2
+[ RUN      ] test_2.PointParamConstruct
+[       OK ] test_2.PointParamConstruct (0 ms)
+[----------] 1 test from test_2 (0 ms total)
+
+[----------] 1 test from test_3
+[ RUN      ] test_3.PointCopyConstruct
+[       OK ] test_3.PointCopyConstruct (0 ms)
+[----------] 1 test from test_3 (0 ms total)
+
+[----------] 1 test from test_4
+[ RUN      ] test_4.PointMoveConstruct
+[       OK ] test_4.PointMoveConstruct (0 ms)
+[----------] 1 test from test_4 (0 ms total)
+
+[----------] 1 test from test_5
+[ RUN      ] test_5.PointAssignment
+[       OK ] test_5.PointAssignment (0 ms)
+[----------] 1 test from test_5 (0 ms total)
+
+[----------] 1 test from test_7
+[ RUN      ] test_7.PointEquality
+[       OK ] test_7.PointEquality (0 ms)
+[----------] 1 test from test_7 (0 ms total)
+
+[----------] 1 test from test_8
+[ RUN      ] test_8.PointInequality
+[       OK ] test_8.PointInequality (0 ms)
+[----------] 1 test from test_8 (0 ms total)
+
+[----------] 1 test from test_15
+[ RUN      ] test_15.RhombusDefaultConstruct
+[       OK ] test_15.RhombusDefaultConstruct (0 ms)
+[----------] 1 test from test_15 (0 ms total)
+
+[----------] 1 test from test_16
+[ RUN      ] test_16.RhombusParamConstruct
+[       OK ] test_16.RhombusParamConstruct (0 ms)
+[----------] 1 test from test_16 (0 ms total)
+
+[----------] 1 test from test_17
+[ RUN      ] test_17.RhombusAreaCalc
+[       OK ] test_17.RhombusAreaCalc (0 ms)
+[----------] 1 test from test_17 (0 ms total)
+
+[----------] 1 test from test_18
+[ RUN      ] test_18.RhombusVertices
+[       OK ] test_18.RhombusVertices (0 ms)
+[----------] 1 test from test_18 (0 ms total)
+
+[----------] 1 test from test_19
+[ RUN      ] test_19.RhombusIsEqual
+[       OK ] test_19.RhombusIsEqual (0 ms)
+[----------] 1 test from test_19 (0 ms total)
+
+[----------] 1 test from test_23
+[ RUN      ] test_23.RhombusDifferentTypes
+[       OK ] test_23.RhombusDifferentTypes (0 ms)
+[----------] 1 test from test_23 (0 ms total)
+
+[----------] 1 test from test_24
+[ RUN      ] test_24.PentagonDefaultConstruct
+[       OK ] test_24.PentagonDefaultConstruct (0 ms)
+[----------] 1 test from test_24 (0 ms total)
+
+[----------] 1 test from test_25
+[ RUN      ] test_25.PentagonAreaCalc
+[       OK ] test_25.PentagonAreaCalc (0 ms)
+[----------] 1 test from test_25 (0 ms total)
+
+[----------] 1 test from test_26
+[ RUN      ] test_26.PentagonVerticesCount
+[       OK ] test_26.PentagonVerticesCount (4 ms)
+[----------] 1 test from test_26 (4 ms total)
+
+[----------] 1 test from test_27
+[ RUN      ] test_27.PentagonIsEqual
+[       OK ] test_27.PentagonIsEqual (0 ms)
+[----------] 1 test from test_27 (0 ms total)
+
+[----------] 1 test from test_35
+[ RUN      ] test_35.FigurePointerPolymorphism
+[       OK ] test_35.FigurePointerPolymorphism (0 ms)
+[----------] 1 test from test_35 (0 ms total)
+
+[----------] 1 test from test_37
+[ RUN      ] test_37.PolymorphicArray
+[       OK ] test_37.PolymorphicArray (0 ms)
+[----------] 1 test from test_37 (0 ms total)
+
+[----------] 1 test from test_38
+[ RUN      ] test_38.TotalAreaEmpty
+[       OK ] test_38.TotalAreaEmpty (0 ms)
+[----------] 1 test from test_38 (0 ms total)
+
+[----------] 1 test from test_39
+[ RUN      ] test_39.TotalAreaSingleFigure
+[       OK ] test_39.TotalAreaSingleFigure (0 ms)
+[----------] 1 test from test_39 (0 ms total)
+
+[----------] 1 test from test_40
+[ RUN      ] test_40.TotalAreaMultipleFigures
+[       OK ] test_40.TotalAreaMultipleFigures (0 ms)
+[----------] 1 test from test_40 (0 ms total)
+
+[----------] 1 test from test_41
+[ RUN      ] test_41.ArrayDefaultConstruct
+[       OK ] test_41.ArrayDefaultConstruct (0 ms)
+[----------] 1 test from test_41 (0 ms total)
+
+[----------] 1 test from test_42
+[ RUN      ] test_42.ArraySizeConstruct
+[       OK ] test_42.ArraySizeConstruct (0 ms)
+[----------] 1 test from test_42 (0 ms total)
+
+[----------] 1 test from test_43
+[ RUN      ] test_43.ArrayInitializerList
+[       OK ] test_43.ArrayInitializerList (0 ms)
+[----------] 1 test from test_43 (0 ms total)
+
+[----------] 1 test from test_44
+[ RUN      ] test_44.ArrayCopyConstruct
+[       OK ] test_44.ArrayCopyConstruct (0 ms)
+[----------] 1 test from test_44 (0 ms total)
+
+[----------] 1 test from test_45
+[ RUN      ] test_45.ArrayMoveConstruct
+[       OK ] test_45.ArrayMoveConstruct (0 ms)
+[----------] 1 test from test_45 (0 ms total)
+
+[----------] 1 test from test_46
+[ RUN      ] test_46.ArrayPushBack
+[       OK ] test_46.ArrayPushBack (0 ms)
+[----------] 1 test from test_46 (0 ms total)
+
+[----------] 1 test from test_47
+[ RUN      ] test_47.ArrayRemove
+[       OK ] test_47.ArrayRemove (0 ms)
+[----------] 1 test from test_47 (0 ms total)
+
+[----------] 1 test from test_48
+[ RUN      ] test_48.ArrayClear
+[       OK ] test_48.ArrayClear (0 ms)
+[----------] 1 test from test_48 (0 ms total)
+
+[----------] 1 test from test_49
+[ RUN      ] test_49.ArrayAccessOperator
+[       OK ] test_49.ArrayAccessOperator (0 ms)
+[----------] 1 test from test_49 (0 ms total)
+
+[----------] 1 test from test_50
+[ RUN      ] test_50.ArrayOutOfBounds
+[       OK ] test_50.ArrayOutOfBounds (5 ms)
+[----------] 1 test from test_50 (5 ms total)
+
+[----------] 1 test from test_51
+[ RUN      ] test_51.ArrayIterators
+[       OK ] test_51.ArrayIterators (0 ms)
+[----------] 1 test from test_51 (0 ms total)
+
+[----------] 1 test from test_52
+[ RUN      ] test_52.ArrayOfRawPointersToFigure
+[       OK ] test_52.ArrayOfRawPointersToFigure (0 ms)
+[----------] 1 test from test_52 (0 ms total)
+
+[----------] 1 test from test_53
+[ RUN      ] test_53.ArrayOfSpecificDerivedType
+[       OK ] test_53.ArrayOfSpecificDerivedType (0 ms)
+[----------] 1 test from test_53 (0 ms total)
+
+[----------] 1 test from test_55
+[ RUN      ] test_55.ArrayCopyAndMoveOperations
+[       OK ] test_55.ArrayCopyAndMoveOperations (0 ms)
+[----------] 1 test from test_55 (0 ms total)
+
+[----------] 1 test from test_56
+[ RUN      ] test_56.CompleteWorkflowDemonstration
+[       OK ] test_56.CompleteWorkflowDemonstration (0 ms)
+[----------] 1 test from test_56 (0 ms total)
+
+[----------] 1 test from test_57
+[ RUN      ] test_57.DifferentScalarTypes
+[       OK ] test_57.DifferentScalarTypes (0 ms)
+[----------] 1 test from test_57 (0 ms total)
+
+[----------] 1 test from test_58
+[ RUN      ] test_58.AllRequiredFigures
+[       OK ] test_58.AllRequiredFigures (0 ms)
+[----------] 1 test from test_58 (0 ms total)
+
+[----------] 1 test from test_59
+[ RUN      ] test_59.ArrayWithFigurePointersAndDirect
+[       OK ] test_59.ArrayWithFigurePointersAndDirect (0 ms)
+[----------] 1 test from test_59 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 41 tests from 40 test suites ran. (11 ms total)
+[  PASSED  ] 41 tests.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"LabsTests" end time: Dec 17 16:50 UTC
+"LabsTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 17 16:50 UTC

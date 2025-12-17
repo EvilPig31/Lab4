@@ -1,0 +1,1 @@
+/usr/local/bin/g++  -Werror=maybe-uninitialized -g CMakeFiles/Labs_exe.dir/main.cpp.o -o Labs_exe 
